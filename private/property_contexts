@@ -113,3 +113,6 @@ wlan.                   u:object_r:wifi_prop:s0
 
 # hwservicemanager properties
 hwservicemanager.       u:object_r:hwservicemanager_prop:s0
+
+# adb-over-network property
+adb.network.port              u:object_r:adbtcp_prop:s0
