@@ -54,6 +54,7 @@ allow vendor_init {
   file_type
   -core_data_file_type
   -exec_type
+  proc
   -runtime_event_log_tags_file
   -system_file
   -unlabeled
@@ -135,6 +136,9 @@ allow vendor_init self:global_capability_class_set net_admin;
 
 # Write to /proc/sys/vm/page-cluster
 allow vendor_init proc_page_cluster:file w_file_perms;
+
+# Write to /proc/sys/
+allow vendor_init proc:file w_file_perms;
 
 # Write to sysfs nodes.
 allow vendor_init sysfs_type:dir r_dir_perms;
