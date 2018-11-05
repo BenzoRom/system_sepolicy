@@ -13,11 +13,13 @@
     bpfloader
     bpfloader_exec
     cgroup_bpf
+    cpu_variant_prop
     crossprofileapps_service
     ctl_interface_restart_prop
     ctl_interface_start_prop
     ctl_interface_stop_prop
     ctl_sigstop_prop
+    dev_cpu_variant
     dufont_service
     exfat
     exported2_config_prop
