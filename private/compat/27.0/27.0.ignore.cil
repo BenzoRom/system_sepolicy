@@ -96,6 +96,7 @@
     statsdw_socket
     storaged_data_file
     sysfs_fs_f2fs
+    sysfs_transparent_hugepage
     system_boot_reason_prop
     system_update_service
     test_boot_reason_prop

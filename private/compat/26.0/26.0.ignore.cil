@@ -108,6 +108,7 @@
     storaged_data_file
     sysfs_fs_ext4_features
     sysfs_fs_f2fs
+    sysfs_transparent_hugepage
     system_boot_reason_prop
     system_net_netd_hwservice
     system_update_service
