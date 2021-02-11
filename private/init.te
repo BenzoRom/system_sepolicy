@@ -41,6 +41,9 @@ allow init sysfs_dm:file read;
 allow init sysfs_loop:dir r_dir_perms;
 allow init sysfs_loop:file rw_file_perms;
 
+# Allow init to write to the drop_caches file.
+allow init proc_drop_caches:file rw_file_perms;
+
 # Allow the BoringSSL self test to request a reboot upon failure
 set_prop(init, powerctl_prop)
 
