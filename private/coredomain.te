@@ -9,6 +9,7 @@ neverallow {
     -init
 
     # generic access to sysfs_type
+    -apexd
     -ueventd
     -vold
 } sysfs_leds:file *;
